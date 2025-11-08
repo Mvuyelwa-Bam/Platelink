@@ -4,7 +4,7 @@
   
   # The directory where your compiled static assets are placed.
   # This is usually 'build' (for CRA) or 'dist' (for Vite).
-  publish = "build"
+  publish = "dist"
 
 # Essential for Single Page Applications (SPAs) like React.
 # This redirects all non-file requests to index.html so the client-side router (like React Router) can handle the routing.
