@@ -1,3 +1,5 @@
+import React from 'react';
+import { createRoot } from 'react-dom/client';
 import React, { useState, useMemo, useEffect } from 'react';
 import { 
   BarChart, Droplet, Layers, AlertTriangle, MapPin, Plus, Send, Bell, 
@@ -768,3 +770,8 @@ function LogisticsView() {
     </div>
   );
 }
+
+// React DOM mounting - ADD THIS AT THE END
+const container = document.getElementById('root');
+const root = createRoot(container);
+root.render(<App />);
